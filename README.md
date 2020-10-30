@@ -1,8 +1,10 @@
 ## ad-astra •
 
-♫ Every *turn* I take, every *trail* I track ♫
-♫ Every *path* I make, every *road* leads back ♫
+♫ Every *turn* I take, every *trail* I track ♫\
+♫ Every *path* I make, every *road* leads back ♫\
 ♫ To the place I know, where I cannot go, where I long to be ♫
+
+**Work in progress.**
 
 **ad-astra** is a tool for working with Abstract Syntax Trees in your program.
 
@@ -75,7 +77,7 @@ enum Expr {
 
 ##### Rust & GADT with ad-astra
 
-###### Explicit code, compile-time
+###### Explicit code, compile-time mode
 ```rust
 #[ast]
 mod ast {
@@ -132,7 +134,7 @@ mod ast {
 }
 ```
 
-###### Code, run-time
+###### Code, run-time mode
 
 ```rust
 pub enum Value {
