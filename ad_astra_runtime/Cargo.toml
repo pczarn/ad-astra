@@ -1,0 +1,18 @@
+[package]
+name = "ad-astra-runtime"
+version = "0.0.0"
+authors = ["Piotr Czarnecki <pioczarn@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+syn = { version = "1.0", features = ["full"] }
+quote = "1.0"
+cfg = "0.5"
+gearley = "0.0"
+internship = "0.6"
+
+[patch.crates-io]
+cfg = { path = "/home/piotr/src/cfg" }
+gearley = { path = "/home/piotr/src/gearley" }
